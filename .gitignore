@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 大型数据文件（不提交到GitHub）
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+
+# 输出文件（可选择保留，但文件大时建议忽略）
+# visualization_results/  # 如果不想上传图表，取消注释这行
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
